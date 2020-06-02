@@ -69,16 +69,16 @@ body {
   padding-top: 11em;
 }
 
-.content h2 {
+.content h1 {
   text-align: center;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .content-block {
   padding-bottom: 2em;
 }
 
-.content-block h3 {
+.content-block h2, .info-column h2 {
   color: #431859;
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: 800;
@@ -91,7 +91,16 @@ body {
 
 .content-block span {
   color: #431859;
-  font-weight: bold;
+  font-weight: 800;
+}
+
+.content-block h3 {
+  color: #431859;
+  font-weight: 800;
+}
+
+.content-item {
+  padding-bottom: 2em;
 }
 
 .info-column {
@@ -106,8 +115,8 @@ body {
   padding-bottom: 1em;
 }
 
-.skill-block h3 {
-  padding-top: 2em;
+.skill-block h2 {
+  padding-top: 1em;
 }
 
 .skill {
@@ -125,9 +134,18 @@ body {
 }
 
 .dot {
+  border: 1px solid #431859;
   background-color: #431859;
   display: block;
   height: 5px;
   margin-left: 1em;
   width: 5px;
+}
+
+.empty {
+  background-color: transparent;
+}
+
+.position {
+  font-style: italic;
 }
