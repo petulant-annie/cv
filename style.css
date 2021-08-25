@@ -143,10 +143,6 @@ body {
   width: 5px;
 }
 
-.empty {
-  background-color: transparent;
-}
-
 .position {
   font-style: italic;
 }
